@@ -1,0 +1,1 @@
+g++ -g -Wall -Wextra -I Libraries/include/ Main.cpp glad.c stb.cpp Texture.cpp shaderClass.cpp VAO.cpp VBO.cpp EBO.cpp Camera.cpp -lGL -lGLU -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor
